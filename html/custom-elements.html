@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <my-custom-element>
+        this is custom tag
+    </my-custom-element>
+    <a rel="script" href="https://github.com/rnyaupane" target="_blank">index</a>
+
+    <script>
+        class MyCustomElement extends HTMLElement {
+            constructor() {
+                super();
+            }
+        }
+        customElements.define('my-custom-element', MyCustomElement);
+    </script>
+</body>
+
+</html>

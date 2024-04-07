@@ -1,0 +1,51 @@
+.navbar {
+    background-color: black;
+    height: 100px;
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+}
+
+.navbar .nav-items ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.navbar .nav-items li .nav-items {
+    color: white;
+}
+
+.logo {
+    background-color: antiquewhite;
+    height: 80px;
+    width: 200px;
+}
+
+.nav-items {
+    background-color: blueviolet;
+    height: 80px;
+    width: 500px;
+    color: white;
+}
+
+.service {
+    background-color: aquamarine;
+    height: 500px;
+    display: flex;
+    gap: 10px;
+    /* flex-wrap: wrap; */
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+
+.card-item {
+    /* margin-top: 50px; */
+    height: 400px;
+    width: 250px;
+    background-color: rgb(224, 128, 2);
+}
